@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ejercicio3</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="FrameList">Members</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="del_snack_bar_error_msg">Se ha presentado un error con la base de datos, el miembro no fue borrado.</string>
+    <string name="texto">texto</string>
+    <string name="borrar">Borrar</string>
+    <string name="memberdetail">Member Detail</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="name">Nombre</string>
+    <string name="matricula">Matricula</string>
+    <string name="Address">Direccion</string>
+    <string name="Expresion">Expresion</string>
+    <string name="guardar">Guardar</string>
+    <string name="actualizar">Actualizar</string>
+</resources>

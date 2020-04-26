@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SecondFragment">
+
+    <ImageView
+        android:id="@+id/imageViewMemberDetailAdd"
+        android:layout_width="324dp"
+        android:layout_height="247dp"
+        android:contentDescription="@string/memberdetail"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edMemberNameAdd"
+        android:layout_width="0dp"
+        android:inputType="textAutoComplete"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:hint="@string/name"
+        android:maxLength="40"
+        android:imeOptions="actionNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewMemberDetailAdd" />
+
+    <EditText
+        android:id="@+id/edAddressAdd"
+        android:autofillHints="@string/Address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Address"
+        android:inputType="textAutoComplete"
+        android:maxLength="50"
+        android:imeOptions="actionNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edExpresionAdd" />
+
+    <EditText
+        android:id="@+id/edExpresionAdd"
+        android:layout_width="0dp"
+        android:autofillHints="@string/Expresion"
+        android:layout_height="wrap_content"
+        android:hint="@string/Expresion"
+        android:inputType="textAutoComplete"
+        android:imeOptions="actionNext"
+        android:maxLength="160"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edMatriculaAdd" />
+
+    <EditText
+        android:id="@+id/edMatriculaAdd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/matricula"
+        android:hint="@string/matricula"
+        android:inputType="textAutoComplete"
+        android:maxLength="20"
+        android:imeOptions="actionNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edMemberNameAdd" />
+
+    <Button
+        android:id="@+id/btnAddMember"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edAddressAdd"
+        app:layout_constraintVertical_bias="0.65" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
